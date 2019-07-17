@@ -37,6 +37,8 @@ class Person
     @hygiene > 7
   end
   def get_paid(salary)
+    @bank_account += salary
   end
+  
 end
 
