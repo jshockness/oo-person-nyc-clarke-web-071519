@@ -30,5 +30,8 @@ class Person
     @hygiene = num
     end
   end
+  def happy? 
+    @happiness > 7
+  end
 end
 
