@@ -3,7 +3,7 @@
 class Person
   def initialize(name)
     @name = name
-    @bank_account = "$25"
+    @bank_account = 25
   end
   def name
     @name
