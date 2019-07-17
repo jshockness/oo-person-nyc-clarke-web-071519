@@ -1,7 +1,7 @@
 # your code goes here
 
 class Person
-  attr_accessor :bank_account, :happiness
+  attr_accessor :bank_account, :happiness, :hygiene
   
   def initialize(name)
     @name = name
@@ -18,6 +18,15 @@ class Person
       @happiness= 0
     else 
     @happiness = num
+    end
+  end
+  def hygiene=(num)
+    if num >=10 
+      @hygiene= 10
+      elsif num <=0 
+      @hygiene= 0
+    else 
+    @hygiene = num
     end
   end
 end
